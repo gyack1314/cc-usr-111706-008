@@ -1,0 +1,27 @@
+{
+  "docket": "X-1",
+  "revision": "r1",
+  "kind": "agenda",
+  "meeting": "2026-12-05",
+  "location": "规划局听证室",
+  "status": "scheduled",
+  "attachments": [],
+  "cross_references": [
+    {
+      "docket": "X-2",
+      "authority": "formal",
+      "note": "规划局案号与环评案号正式互引"
+    },
+    {
+      "docket": "X-3",
+      "authority": "inferred",
+      "note": "同地块线索，待核"
+    }
+  ],
+  "related_dockets": [
+    {
+      "docket": "X-4",
+      "note": "开发商自述相邻项目"
+    }
+  ]
+}

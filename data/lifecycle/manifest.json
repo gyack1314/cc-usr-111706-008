@@ -1,0 +1,98 @@
+{
+  "allowed_origins": [
+    "https://planning.example.test"
+  ],
+  "steps": [
+    {
+      "request": {
+        "method": "GET",
+        "url": "https://planning.example.test/hearing-docket/D-7/r1",
+        "body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "response": {
+        "file": "agenda-r1.bin",
+        "status": 200,
+        "bytes": 190,
+        "sha256": "bf54b3b2e210656314d03a88830ddb6d25e23559f0b6c612b6bd01fbcdab9a74"
+      }
+    },
+    {
+      "request": {
+        "method": "GET",
+        "url": "https://planning.example.test/hearing-docket/A-70",
+        "body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "response": {
+        "file": "attachment-a70.bin",
+        "status": 200,
+        "bytes": 166,
+        "sha256": "da34baaf000b69917b6d7d9652981fc0e126409727cede002e1737e5f9eec03c"
+      }
+    },
+    {
+      "request": {
+        "method": "GET",
+        "url": "https://planning.example.test/hearing-docket/D-7/r2",
+        "body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "response": {
+        "file": "agenda-r2.bin",
+        "status": 200,
+        "bytes": 231,
+        "sha256": "5bd226984aab13313adce19e5c09acf0960c14bd2b7aecdcd33c2934c29e0e15"
+      }
+    },
+    {
+      "request": {
+        "method": "GET",
+        "url": "https://planning.example.test/hearing-docket/D-7/r3",
+        "body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "response": {
+        "file": "agenda-r3.bin",
+        "status": 200,
+        "bytes": 192,
+        "sha256": "287beb2b38711d12744352bea282447446730a66ffc657322b529aae6acdfaf6"
+      }
+    },
+    {
+      "request": {
+        "method": "GET",
+        "url": "https://planning.example.test/hearing-docket/D-7/m1",
+        "body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "response": {
+        "file": "minutes-m1.bin",
+        "status": 200,
+        "bytes": 157,
+        "sha256": "b3dc2cf331a9ac9b64230f05709430472b1dd55ba6aca28f50f248d26ce604c1"
+      }
+    },
+    {
+      "request": {
+        "method": "GET",
+        "url": "https://planning.example.test/hearing-docket/D-11/r1",
+        "body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "response": {
+        "file": "agenda-d11-r1.bin",
+        "status": 200,
+        "bytes": 177,
+        "sha256": "acd29aec73ce6aaa5169c9b623170de6687650827887e1faa1448293b83b62b3"
+      }
+    },
+    {
+      "request": {
+        "method": "GET",
+        "url": "https://planning.example.test/hearing-docket/D-11/r2",
+        "body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "response": {
+        "file": "agenda-d11-r2.bin",
+        "status": 200,
+        "bytes": 177,
+        "sha256": "74002713f15f0be325d4478fc2a1c414d616e106d934006933a3fa9f7f3dea42"
+      }
+    }
+  ]
+}
