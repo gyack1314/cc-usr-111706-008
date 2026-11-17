@@ -1,0 +1,33 @@
+{
+  "allowed_origins": [
+    "https://planning.example.test"
+  ],
+  "steps": [
+    {
+      "request": {
+        "method": "GET",
+        "url": "https://planning.example.test/hearing-docket/primary",
+        "body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "response": {
+        "file": "source-1.bin",
+        "status": 200,
+        "bytes": 127,
+        "sha256": "fcd534e332c9acda2c803dcfd212cc4ea178811c476e97107387c58680b26222"
+      }
+    },
+    {
+      "request": {
+        "method": "GET",
+        "url": "https://planning.example.test/hearing-docket/support",
+        "body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "response": {
+        "file": "source-2.bin",
+        "status": 200,
+        "bytes": 122,
+        "sha256": "2dbf8ff72b93bf117bb89860b51444a9461078932a56f150dbcfd4403e07a9dc"
+      }
+    }
+  ]
+}
